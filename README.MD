@@ -7,6 +7,8 @@ X. Xiong et al.
 - A training dataset with images (.jpg), landmarks (.pts), boundig box around the face (.mat).
 - A test dataset with images (.jpg), landmarks (.pts), boundig box around the face (.mat).
 
+Training and tests was done using the Hellen Dataset (https://ibug.doc.ic.ac.uk/download/annotations/helen.zip).
+
 ## Advised organisation 
 By default, it would be easier if folders are organised as follows:
 

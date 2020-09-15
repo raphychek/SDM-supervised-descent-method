@@ -45,8 +45,6 @@ We changed the parameters in order to have a smaller descriptor vector, for comp
 
 Implementation was kind of straightforward, but with some challenge on the choice of regressions and descriptor choice and parameters.
 
-This implementation shall only work with a real test dataset for which we know the .pts ground truth. This is easy to change it in order to use it for clasical inference, but it seemed not to be the point of this work.
+This implementation shall only work with a real test dataset for which we know the .pts ground truth. This is easy to change it in order to use it for classical inference, but it seemed not to be the point of this work.
 
 To have better estimations by having all landmarks points in the image, there is a function called "big_bbox" which enlarges the bbox by a certain ratio to give as a parameter. We noticed better results when using it with a little ratio such as 5-10% but we did not really studied it. To stick to the article, the default ratio parameter is 0.
-
-Pre-computed weights are in the .zip archive in order to avoid re-computation.

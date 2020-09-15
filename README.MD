@@ -28,12 +28,12 @@ The only required argument is the mode ("train" or "test"). Others are not neede
 ## Training
 For a custom training, one needs:
 
-python --mode="train" --weights_path=WEIGHT_PATH --train_bbox=.MAT_PATH --train_images=JPG_PATH+".jpg" --train_lms=.PTS_PATH+"*pts" --train_epochs=NUM_EPOCHS
+`python --mode="train" --weights_path=WEIGHT_PATH --train_bbox=.MAT_PATH --train_images=JPG_PATH+".jpg" --train_lms=.PTS_PATH+"*pts" --train_epochs=NUM_EPOCHS`
 
 ## Testing
 For a custom testing, one needs:
 
-python --mode="test" --weights_path=WEIGHT_PATH --test_bbox=.MAT_PATH --test_images=JPG_PATH+".jpg" --test_lms=.PTS_PATH+"*pts" --output_dir=OUTPUT_PATH
+`python --mode="test" --weights_path=WEIGHT_PATH --test_bbox=.MAT_PATH --test_images=JPG_PATH+".jpg" --test_lms=.PTS_PATH+"*pts" --output_dir=OUTPUT_PATH` 
 
 
 # Notes
